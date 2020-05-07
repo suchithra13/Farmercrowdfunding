@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ui.register.register">
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="110dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/crop1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:hint="@string/crop1"
+        android:inputType="text"
+        android:autofillHints=""
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="100dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:autofillHints=""
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="100dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:entries="@array/string2"
+        android:visibility="visible"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="100dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:background="#51636C"
+        android:text="@string/register"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="100dp" />
+
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="330dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Note: But It varies based on crop." />
+
+    <EditText
+        android:id="@+id/text5"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="370dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1. Kaarif crop - 10000-15000" />
+
+    <EditText
+        android:id="@+id/text6"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="2. Rabi crop -10000-20000"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="100dp"/>
+
+
+</FrameLayout>

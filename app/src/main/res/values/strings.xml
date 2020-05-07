@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Farmercrowdfunding</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_cropdetails">Crop_details</string>
+    <string name="title_farmerdetails">Farmer_details</string>
+    <string name="title_insurance">Insurance</string>
+    <string name="title_scheme">Scheme</string>
+    <string name="title_register">Register</string>
+    <string name="phone">Phone number</string>
+    <string name="crop">Crop name</string>
+    <string name="text2">Name</string>
+    <string name="acre">Number of acre</string>
+    <string name="name">Name</string>
+    <string name="apply">Apply</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="register">Register</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_mail_id">Enter Mail Id</string>
+    <string name="date">Enter Date</string>
+    <string name="crop1">Enter Crop Name</string>
+    <string-array name="string">
+        <item>Select</item>
+        <item>Co-Operative society</item>
+        <item>Farmer</item>
+        <item>Funder</item>
+    </string-array>
+    <string-array name="string1">
+        <item>Select</item>
+        <item>English</item>
+        <item>Kannada</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="string2">
+        <item>Select</item>
+        <item>Tomato</item>
+        <item>Chilli</item>
+        <item>Beans</item>
+        <item>Carrot</item>
+        <item>Paddy</item>
+        <item>Ragi</item>
+        <item>Sugarcane</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_register">
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.example.farmercrowdfunding.ui.register.register"
+        android:label="@string/title_register"
+        tools:layout="@layout/register_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_scheme"
+        android:name="com.example.farmercrowdfunding.ui.scheme.scheme"
+        android:label="@string/title_scheme"
+        tools:layout="@layout/scheme_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_insurance"
+        android:name="com.example.farmercrowdfunding.ui.insurance.insurance"
+        android:label="@string/title_insurance"
+        tools:layout="@layout/insurance_fragment" />
+    <fragment
+        android:id="@+id/navigation_farmerdetails"
+        android:name="com.example.farmercrowdfunding.ui.farmerdetails.farmerdetails"
+        android:label="@string/title_farmerdetails"
+        tools:layout="@layout/farmerdetails_fragment" />
+    <fragment
+        android:id="@+id/navigation_cropdetails"
+        android:name="com.example.farmercrowdfunding.ui.cropdetails.cropdetails"
+        android:label="@string/title_cropdetails"
+        tools:layout="@layout/cropdetails_fragment" />
+</navigation>
